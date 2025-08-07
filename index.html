@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukli Website</title>
+
+    <!-- font awesome CDN link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+     <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- header section starts -->
+<header class="header">
+    <a href="#home" class="logo"><i class="fas fa-shopping-cart"></i> Sukli</a>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Products</a>
+        <a href="#contact">Reviews</a>
+    </nav>
+
+    <div class = "icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class = "fas fa-user" id="login-btn"></div>
+    </div>
+
+    <!-- search form section starts -->
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    
+    <!-- shopping cart section starts -->
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src='image/img-1.png'>
+            <div class="content">
+                <h3>Cabbage</h3>
+                <span class="price">₱100.00/kilo -</span>
+                <span class="quantity">Qty: 1</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src='image/img-2.png'>
+            <div class="content">
+                <h3>Apple</h3>
+                <span class="price">₱100.00/kilo -</span>
+                <span class="quantity">Qty: 1</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src='image/img-3.png'>
+            <div class="content">
+                <h3>Tomato</h3>
+                <span class="price">₱100.00/kilo -</span>
+                <span class="quantity">Qty: 1</span>
+            </div>
+        </div>
+
+        <div class = "total"> Total: 300.000/-</div>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+    <!-- log-in form section starts -->
+    <form action="" class="login-form">
+        <h3>Login now</h3>
+        <input type="email" placeholder="Enter your email" class="box" required>
+        <input type="password" placeholder="Enter your password" class="box" required>
+        <p>Forgot your password? <a href="#">Click here</a></p>
+        <p>Don't have an account? <a href="#">Create now</a></p>
+        <input type="submit" value="Login now" class="btn">
+    </form>
+</header>
+
+<!-- home page starts here-->
+ <section class="home" id="home">
+    <div class="content">
+        <h3> Fresh and <span>organic</span> products for your</h3>
+        <p> Lorem ipsum dolor sit emet Lorem ipsum dolor sit emet Lorem ipsum dolor sit emet Lorem ipsum dolor sit emet Lorem ipsum dolor sit emet Lorem ipsum dolor sit emet </p>
+        <a href="#products" class="btn">Shop Now</a>
+    </div>
+</section>
+
+<!-- home page services starts here-->
+ <section class = "services" id="services">
+    <h1 class = "services-heading">Our <span>Services</span></h1>
+    
+    <section class="box-container">
+        <div class="box">
+            <img src="image/services/s1.png" alt="">
+            <h3>Fresh and Organic</h3>
+            <p>Farm-fresh fruits and veggies, all are naturally grown</p>
+        </div>
+
+        <div class="box">
+            <img src="image/services/s2.png" alt="">
+            <h3>Free Delivery</h3>
+            <p>Enjoy free and fast delivery straight to your home</p>
+        </div>
+
+        <div class="box">
+            <img src="image/services/s3.png" alt="">
+            <h3>Easy Payments</h3>
+            <p>Hassle-free  payments via GCash or cash </p>
+        </div>
+    </section>
+</section>
+
+<!-- home page product categories starts here-->
+ <section class = "categories" id="categories">
+    <h1 class = "categories-heading">Products <span>Categories</span></h1>
+    
+    <section class="box-container">
+        <div class="box">
+            <img src="image/categories/c1.png" alt="">
+            <h3> Canned Goods </h3>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/categories/c4.png" alt="">
+            <h3> Meat </h3>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/categories/c5.png" alt="">
+            <h3> Fishes </h3>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/categories/c2.png" alt="">
+            <h3> Fruits & Veggies </h3>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+
+    </section>
+</section>
+    
+<!-- custom js file link-->
+<script src="js/script.js"></script>
+
+</body>
+</html>
